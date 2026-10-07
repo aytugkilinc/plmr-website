@@ -1,3 +1,4 @@
+// Connected to Cloudflare Workers Builds on 2026-10-08.
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "plmr-preview",

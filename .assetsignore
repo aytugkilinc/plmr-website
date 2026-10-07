@@ -3,3 +3,7 @@ _redirects
 worker.js
 wrangler.jsonc
 RC3_DEPLOYMENT_NOTE.txt
+.git
+.git/**
+.wrangler
+.wrangler/**

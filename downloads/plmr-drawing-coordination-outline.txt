@@ -1,0 +1,29 @@
+PLMR - ILLUSTRATIVE DRAWING AND COORDINATION OUTLINE
+Template version: 1.0 | Updated: 14 September 2026
+Illustrative example, not a completed client project.
+This file is a scope outline, not a drawing. Not for fabrication or construction.
+
+POSSIBLE AGREED OUTPUTS
+01 Drawing register: number, title, revision, date, status and intended use.
+02 Layout: overall geometry, openings and support locations from agreed inputs.
+03 Elevations / sections: interfaces that need coordination.
+04 Detail schedule: roof-to-glass, screen-guide, drainage and fixing interfaces.
+05 Interface register: supplied assumptions, open questions and owner of each.
+06 Revision note: changes made, remaining decisions and distribution status.
+
+INPUTS TO AGREE
+Units; coordinate references; verified dimensions; site photos; supplier system
+details; required file format; agreed review process; project responsibilities.
+
+HANDOVER QUESTIONS
+Is each drawing clearly labelled for its intended use?
+Which inputs were verified and by whom?
+Which supplier limits or details remain outstanding?
+Who confirms support capacity, anchors and project-specific performance?
+Who checks local rules and authorises fabrication or installation?
+Which revisions and file formats are included in the agreed scope?
+
+BOUNDARY
+Deliverables depend on the agreed commission. A coordination drawing is not
+automatically a fabrication release, structural verification, regulatory
+approval or installation instruction. Do not use this outline as a design.

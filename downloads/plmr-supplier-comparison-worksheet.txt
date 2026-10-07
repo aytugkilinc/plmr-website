@@ -1,0 +1,35 @@
+PLMR - SUPPLIER COMPARISON WORKSHEET
+Template version: 1.0 | Updated: 14 September 2026
+Illustrative worksheet. It contains no supplier recommendation, quotation,
+stock statement or verified performance claim.
+
+Project / required system:
+Required decision:
+Comparison date:
+Prepared by:
+
+Repeat the following record for each supplier or option:
+Supplier and product reference:
+Source document / date / revision:
+Quoted scope and exclusions:
+Dimensions and configuration to which the offer applies:
+Technical evidence supplied and its applicability to this project:
+Interfaces / accessories / controls included:
+Open technical questions:
+Drawings, calculation or installation documents available:
+Commercial basis, currency and offer validity as quoted:
+Packing / freight / customs / installation: included, excluded or unconfirmed:
+Lead time basis and conditions as quoted:
+Warranty / service provider and written terms as quoted:
+Missing information and person to confirm:
+Status: supplied / reviewed / needs clarification / confirmed for stated scope
+
+COMPARISON RULE
+Compare equivalent scopes. A blank item means unconfirmed, not included.
+Keep quotations and supporting evidence alongside the comparison. Supplier
+statements must be attributed; do not turn them into PLMR guarantees.
+
+BEFORE ORDERING
+Agree the purchasing party, payment route, supplier selection authority,
+delivery responsibilities and PLMR's role in writing. Any sourcing fee or
+other commercial interest must be disclosed as part of the agreed scope.

@@ -1,0 +1,5 @@
+_headers
+_redirects
+worker.js
+wrangler.jsonc
+RC3_DEPLOYMENT_NOTE.txt

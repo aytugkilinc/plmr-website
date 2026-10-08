@@ -65,3 +65,21 @@
 @media(max-width:760px){.about-profile{grid-template-columns:1fr;gap:28px}.about-brand-panel{padding:24px}}
 
 .about-brand-panel .founder-portrait{width:160px;height:160px;object-fit:cover;border-radius:8px;padding:0;margin:0 auto 16px;display:block}
+
+/* Software recording and application screens */
+.software-demo{margin:0;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:#121416}
+.software-video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#121416}
+.software-demo figcaption{padding:18px 22px;background:var(--light);color:var(--muted);font-size:.88rem;line-height:1.6}
+.software-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.software-gallery .tech-figure{margin:0;min-width:0}
+.software-gallery img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;background:#121416}
+@media(max-width:900px){.software-gallery{grid-template-columns:1fr}}
+
+
+/* Website v10: existing layout patterns, service routes and anchored inquiries. */
+.service-routes{grid-template-columns:repeat(3,minmax(0,1fr))}
+.engineering-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.section-followup{margin-top:28px;max-width:82ch}
+section[id],.privacy-section[id],#project-enquiry{scroll-margin-top:96px}
+.privacy-section{margin-top:48px}
+@media(max-width:760px){.service-routes,.engineering-grid{grid-template-columns:1fr}}

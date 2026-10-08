@@ -67,6 +67,21 @@
   const form = document.querySelector('[data-contact-form]');
   if (!form) return;
 
+  // Only map known service routes to values also accepted by the Worker.
+  const inquiryRoutes = {
+    engineering: 'Engineering / Technical Review',
+    drawings: 'Drawing & Coordination',
+    sourcing: 'Technical Sourcing',
+    components: 'Outdoor System / Component',
+    software: 'PLMR Software / Implementation',
+    collaboration: 'Technical Collaboration'
+  };
+  const requestedSupport = new URLSearchParams(window.location.search).get('support');
+  const helpSelect = form.querySelector('[name="helpType"]');
+  if (helpSelect && Object.hasOwn(inquiryRoutes, requestedSupport)) {
+    helpSelect.value = inquiryRoutes[requestedSupport];
+  }
+
   const submitButton = form.querySelector('[data-contact-submit]');
   const status = form.querySelector('[data-contact-status]');
   const fallback = form.querySelector('[data-contact-fallback]');
@@ -204,3 +219,4 @@
     }
   });
 })();
+

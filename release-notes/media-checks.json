@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "codec": "h264",
+  "width": 960,
+  "height": 540,
+  "duration_seconds": 88.75,
+  "full_ffmpeg_decode": "PASS",
+  "browser_playback": "NOT_VERIFIED"
+}

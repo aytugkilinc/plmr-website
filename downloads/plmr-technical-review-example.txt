@@ -36,3 +36,4 @@ an open-issues list and a next-action list. Record limitations explicitly.
 A preliminary review does not constitute a structural design, local approval,
 supplier certification or permission to manufacture. Those responsibilities
 and any further calculations must be agreed separately.
+

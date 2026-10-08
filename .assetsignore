@@ -7,3 +7,12 @@ RC3_DEPLOYMENT_NOTE.txt
 .git/**
 .wrangler
 .wrangler/**
+
+node_modules
+node_modules/**
+*.log
+*.backup
+*.zip
+release-notes/**
+package*.json
+README.md

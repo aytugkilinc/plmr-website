@@ -1,5 +1,5 @@
 PLMR PROJECT BRIEF
-Template version: 1.1 | Updated: 15 September 2026
+Template version: 1.2 | Updated: 8 October 2026
 
 Send to: aytugkilinc@plmrsolutions.com
 Suggested subject: PLMR project enquiry - [project / country]
@@ -8,7 +8,7 @@ Name:
 Company and role (if applicable):
 Reply email:
 Project country / location:
-Type of support: technical review / drawings and coordination / sourcing / unsure
+Type of support: technical review / drawings / custom components / sourcing and order support / PLMR software / collaboration / unsure
 System or component:
 What decision or problem needs to be resolved?
 Project stage:

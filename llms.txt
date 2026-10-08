@@ -1,6 +1,6 @@
 # PLMR
 
-> Independent engineering, drawing coordination and Türkiye-based technical sourcing for outdoor architectural systems and project-specific components.
+> Technical project solutions, drawing support, Türkiye-based supplier coordination and company-specific software workflows for outdoor systems.
 
 PLMR is led by Aytuğ Kılınç, a civil engineer based in Türkiye.
 Project scope, deliverables, responsibilities, timing and fees are agreed per enquiry.
@@ -18,7 +18,9 @@ System descriptions and illustrative deliverables are not evidence of completed 
 - [Privacy](https://plmr.solutions/privacy): project correspondence and technical data.
 
 Business email: aytugkilinc@plmrsolutions.com
-Automation Studio is a future concept with no public demo or product release.
+Pülümür Automation Studio is working, actively developed software. Product and output scope are agreed per company; implementation scope is defined per company.
+
+- [Automation Studio](https://plmr.solutions/automation-studio): company-specific configuration, drawings, quotations and agreed technical outputs.
 
 ## Practical sourcing guide
 - [Comparing supplier quotations](https://plmr.solutions/technical-insights/comparing-outdoor-system-quotations): a method for recording scope, evidence, exclusions and unanswered questions.

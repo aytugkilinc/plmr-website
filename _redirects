@@ -1,6 +1,6 @@
 /about.html /about 301
 /systems.html /outdoor-systems 301
-/pergola.html /retractable-pergola-roof-systems 301
+/pergola.html /rolling-roof-systems 301
 /bioclimatic.html /bioclimatic-pergola-systems 301
 /guillotine-glass.html /guillotine-glass-systems 301
 /sliding-glass.html /sliding-glass-systems 301
@@ -16,3 +16,7 @@
 /automation-studio /software 301
 /automation-studio.html /software 301
 /rolling-roof-systems.html /rolling-roof-systems 301
+
+/retractable-pergola-roof-systems /rolling-roof-systems 301
+/retractable-pergola-roof-systems.html /rolling-roof-systems 301
+/hebeschiebe /lift-and-slide-systems 301

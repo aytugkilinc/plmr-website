@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "tests": 22,
+  "real_email_sent": false,
+  "note": "Worker executed locally with a mocked EMAIL binding; actual Cloudflare binding/delivery was not tested.",
+  "results": [
+    {
+      "case": "category: Engineering / Technical Review",
+      "status": "PASS"
+    },
+    {
+      "case": "category: Drawing & Coordination",
+      "status": "PASS"
+    },
+    {
+      "case": "category: Technical Sourcing",
+      "status": "PASS"
+    },
+    {
+      "case": "category: Outdoor System / Component",
+      "status": "PASS"
+    },
+    {
+      "case": "category: PLMR Software / Implementation",
+      "status": "PASS"
+    },
+    {
+      "case": "category: Technical Collaboration",
+      "status": "PASS"
+    },
+    {
+      "case": "category: Aluminum / Building Materials",
+      "status": "PASS"
+    },
+    {
+      "case": "category: Supplier Quality Control / Visit",
+      "status": "PASS"
+    },
+    {
+      "case": "category: Not sure yet",
+      "status": "PASS"
+    },
+    {
+      "case": "reference image and HTTPS project link carried into mocked delivery",
+      "status": "PASS"
+    },
+    {
+      "case": "unknown category",
+      "status": "PASS"
+    },
+    {
+      "case": "invalid email",
+      "status": "PASS"
+    },
+    {
+      "case": "missing consent",
+      "status": "PASS"
+    },
+    {
+      "case": "invalid project URL",
+      "status": "PASS"
+    },
+    {
+      "case": "cross-origin submission",
+      "status": "PASS"
+    },
+    {
+      "case": "six images",
+      "status": "PASS"
+    },
+    {
+      "case": "over 4 MiB image total",
+      "status": "PASS"
+    },
+    {
+      "case": "non-image attachment",
+      "status": "PASS"
+    },
+    {
+      "case": "unconfigured email binding",
+      "status": "PASS"
+    },
+    {
+      "case": "GET is rejected",
+      "status": "PASS"
+    },
+    {
+      "case": "honeypot does not deliver",
+      "status": "PASS"
+    },
+    {
+      "case": "missing assets retain 404 status and use the error page",
+      "status": "PASS"
+    }
+  ]
+}

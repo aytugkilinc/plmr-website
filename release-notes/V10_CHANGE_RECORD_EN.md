@@ -1,3 +1,5 @@
+HISTORICAL RELEASE NOTE - superseded by PLMR Website v17. See V17_CHANGE_RECORD_EN.md and V17_VALIDATION_REPORT.json for the current release.
+
 # PLMR Website v10 — change record
 
 Date: 8 October 2026. This is the website release, not the application version.

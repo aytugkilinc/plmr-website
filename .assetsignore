@@ -20,3 +20,8 @@ README.md
 build_v10.py
 validation/**
 *.md
+
+hizliyukle.bat
+hizli-yukle.ps1
+KURULUM_v*.txt
+PLMR_SITE_MANIFEST_v*.json

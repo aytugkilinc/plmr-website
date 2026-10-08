@@ -83,3 +83,50 @@
 section[id],.privacy-section[id],#project-enquiry{scroll-margin-top:96px}
 .privacy-section{margin-top:48px}
 @media(max-width:760px){.service-routes,.engineering-grid{grid-template-columns:1fr}}
+
+/* PLMR v17: material sourcing, joinery and varied original product imagery. */
+h1,h2,h3{letter-spacing:0}
+h1{font-size:3.1rem}
+h2{font-size:2.2rem}
+.hero{min-height:640px}
+.hero h1{font-size:4.5rem;margin-bottom:12px}
+.hero-offer{font-size:2rem;line-height:1.2;font-weight:750;max-width:22ch;margin-bottom:24px}
+.hero-content{padding-top:100px;padding-bottom:70px}
+.hero-lead{font-size:1.16rem}
+.hero-content-left{max-width:620px}
+.product-hero{min-height:600px}
+.product-hero-copy{padding-top:120px;padding-bottom:64px}
+.product-hero-copy h1,.product-hero-copy .hero-lead{max-width:42%}
+.product-hero-media{left:44%;display:flex;align-items:center}
+.product-hero-media img{width:100%;height:auto;max-height:100%;object-fit:contain}
+.product-hero-media:after{display:none}
+.card-image{aspect-ratio:3/2}
+.system-grid,.material-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.system-card,.copy-block,.decision-card,.footer-grid>div{min-width:0}
+.brand-list{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin:30px 0 18px}
+.brand-list a{border-top:2px solid var(--anth);padding:18px 0;font-size:1.2rem;font-weight:750}
+.brand-list a:hover{color:#49636b}
+.brand-list a:focus-visible{outline:2px solid var(--anth);outline-offset:6px}
+.brand-list span{display:block;font-size:.88rem;font-weight:400;color:var(--muted);line-height:1.5;margin-top:8px}
+.media-note{font-size:.82rem;color:var(--muted);margin-top:22px;max-width:90ch}
+.footer-grid a{overflow-wrap:anywhere}
+.social-links{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;margin-top:22px}
+.social-links a{border:1px solid var(--line);border-radius:6px;padding:10px 15px;font-size:.9rem;font-weight:700}
+.social-links a:hover,.social-links a:focus-visible{background:var(--light)}
+@media(max-width:1100px){.brand-list,.material-grid,.system-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){
+ h1{font-size:2.4rem}h2{font-size:1.9rem}
+ .hero{min-height:650px}.hero h1{font-size:3.5rem}
+ .hero-offer{font-size:1.65rem}.hero-lead{font-size:1.06rem}
+ .hero-content{padding-top:100px;padding-bottom:50px}
+ .hero-overlay{background:linear-gradient(180deg,rgba(8,10,12,.10),rgba(8,10,12,.82) 45%,rgba(8,10,12,.94))}
+ .product-hero{min-height:0;display:flex;flex-direction:column;align-items:stretch}
+ .product-hero-media{position:relative;inset:auto;width:100%;order:0}
+ .product-hero-media img{width:100%;height:auto}
+ .product-hero-copy{order:1;padding-top:36px;padding-bottom:44px}
+ .product-hero-copy h1,.product-hero-copy .hero-lead{max-width:100%}
+ .product-hero-copy h1{font-size:2.35rem}
+ .material-grid,.system-grid{grid-template-columns:1fr}
+ .section{padding:70px 0}.split-grid{gap:34px}
+}
+@media(max-width:480px){.brand-list{grid-template-columns:1fr}.hero-offer{max-width:20ch}.product-hero-copy h1{font-size:2.1rem}}

@@ -1,3 +1,5 @@
+HISTORICAL RELEASE NOTE - superseded by PLMR Website v17. See V17_CHANGE_RECORD_EN.md and V17_VALIDATION_REPORT.json for the current release.
+
 PLMR v10 VIDEO UPDATE — 8 OCTOBER 2026
 
 This package is the complete v10 site plus a playback compatibility update.

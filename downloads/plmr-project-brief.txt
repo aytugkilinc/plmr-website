@@ -1,28 +1,17 @@
-PLMR PROJECT BRIEF
-Template version: 1.2 | Updated: 8 October 2026
+PLMR PROJECT / MATERIAL / SUPPLIER BRIEF
 
-Send to: aytugkilinc@plmrsolutions.com
-Suggested subject: PLMR project enquiry - [project / country]
+Company and contact:
+Project country and location:
+Requested support (drawings / sourcing / materials / supplier quality check / software):
+System or material:
+Preferred brand, series and profile codes:
+Dimensions and units:
+Quantity, material grade and finish:
+Existing supplier and factory location, if applicable:
+Available drawings, order and revisions:
+Performance documents or acceptance criteria needed:
+Quality checks or priority concerns:
+Target date:
+Links to project files:
 
-Name:
-Company and role (if applicable):
-Reply email:
-Project country / location:
-Type of support: technical review / drawings / custom components / sourcing and order support / PLMR software / collaboration / unsure
-System or component:
-What decision or problem needs to be resolved?
-Project stage:
-Approximate dimensions and units (mark unverified measurements):
-Known site, support, drainage or access constraints:
-What is already available? Photos / PDF / CAD / supplier quotation / other
-Project file link(s): Google Drive / OneDrive / Dropbox / WeTransfer / other HTTPS link
-Desired output:
-Target date and any fixed deadline:
-Other useful context:
-
-You can leave unknown items blank. Do not send passwords, identity documents
-or unrelated confidential information. Include only files you are entitled to share.
-
-Sending this brief starts an enquiry. Scope, deliverables, timing, fees and
-responsibilities are agreed before project work begins.
-
+Email: aytugkilinc@plmrsolutions.com

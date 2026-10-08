@@ -1,3 +1,5 @@
+HISTORICAL RELEASE NOTE - superseded by PLMR Website v17. See V17_CHANGE_RECORD_EN.md and V17_VALIDATION_REPORT.json for the current release.
+
 HISTORICAL REFERENCE ONLY — superseded for v10 loading instructions by README.md.
 
 PLMR WEBSITE — V1.3 RC3 CONTACT FORM / CLOUDFLARE WORKER NOTE

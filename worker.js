@@ -10,6 +10,8 @@ const ALLOWED_HELP = new Set([
   'Outdoor System / Component',
   'PLMR Software / Implementation',
   'Technical Collaboration',
+  'Aluminum / Building Materials',
+  'Supplier Quality Control / Visit',
   'Not sure yet'
 ]);
 

@@ -35,3 +35,12 @@ Pülümür Automation Studio is working, actively developed software. Product an
 Software customer commercial information is not used for PLMR's separate sourcing or supply activity.
 Module coverage, output formats, integration, licensing and support are scoped per implementation.
 Rolling-roof integration and wider manufacturing connections are continuing development directions.
+
+## Expanded architectural and material scope (v17)
+- [Aluminum and building materials](https://plmr.solutions/aluminum-building-materials): profiles, sheet and coil, architectural joinery, facade components, composite panels, sandwich panels and associated materials. Brand-specific sourcing enquiries can include ASAŞ, AKPA, ALUMIL and Çuhadaroğlu.
+- [Supplier quality control](https://plmr.solutions/supplier-quality-control-turkey): agreed visits, accessible sampled measurements, finish, accessories, quantities, packing and document follow-up with new or existing suppliers.
+- [Lift and slide](https://plmr.solutions/lift-and-slide-systems): Hebeschiebe doors, profiles, glazing, hardware and threshold coordination.
+- [Insulated windows and doors](https://plmr.solutions/insulated-aluminum-windows-doors): thermally broken aluminum joinery and supplier support.
+Rolling and retractable roof requests are grouped under /rolling-roof-systems; fabric and rigid-panel mechanisms remain explicit.
+New system and sourcing pages do not imply corresponding software module coverage.
+New product images are original AI-generated PLMR concept illustrations, not completed-project photographs or evidence of manufacturer affiliation.

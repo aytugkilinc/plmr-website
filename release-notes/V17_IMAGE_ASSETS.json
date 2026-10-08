@@ -1,0 +1,134 @@
+[
+  {
+    "key": "bioclimatic",
+    "path": "assets/img/plmr-bioclimatic-v17.webp",
+    "size_bytes": 432726,
+    "source_sha256": "72cad29343f2196b63a0d230096a66f0c867639530416aefe7688a90dbca1c87",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "generation_mode": "built-in image_gen"
+  },
+  {
+    "key": "rolling-roof",
+    "path": "assets/img/plmr-rolling-roof-v17.webp",
+    "size_bytes": 407932,
+    "source_sha256": "58b4dda8a844766d7d736fb360f0b63a61acaaab9ebfb5a7f618a3032da2975c",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "generation_mode": "built-in image_gen"
+  },
+  {
+    "key": "fabric-pergola",
+    "path": "assets/img/plmr-fabric-pergola-v17.webp",
+    "size_bytes": 323222,
+    "source_sha256": "31fb032aa692885d603e37b9ed7e7346a18ebaa9a64440836a6de997b2a58494",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "generation_mode": "built-in image_gen"
+  },
+  {
+    "key": "guillotine",
+    "path": "assets/img/plmr-guillotine-v17.webp",
+    "size_bytes": 380290,
+    "source_sha256": "d2bb4ee934a6cbf783265b40d5c3864effd58e8f92499b32c123f711c0781495",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "generation_mode": "built-in image_gen"
+  },
+  {
+    "key": "sliding-glass",
+    "path": "assets/img/plmr-sliding-glass-v17.webp",
+    "size_bytes": 280926,
+    "source_sha256": "ce706ea0dcf6ed01f8450495f49031a24a66a511d350b82f35e549c6ccd21923",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "generation_mode": "built-in image_gen"
+  },
+  {
+    "key": "zip-screen",
+    "path": "assets/img/plmr-zip-screen-v17.webp",
+    "size_bytes": 344094,
+    "source_sha256": "9b25646f8090cfac778c9f3f4007d8372bf2d5e8e53910df785005f9658b6d02",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "generation_mode": "built-in image_gen"
+  },
+  {
+    "key": "veranda",
+    "path": "assets/img/plmr-veranda-v17.webp",
+    "size_bytes": 531940,
+    "source_sha256": "f5df9c9908ccb67e673a8bad134167450e1dfeea8c2de23cba735b9f6f328cd5",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "generation_mode": "built-in image_gen"
+  },
+  {
+    "key": "lift-slide",
+    "path": "assets/img/plmr-lift-slide-v17.webp",
+    "size_bytes": 317794,
+    "source_sha256": "f9baa412d8df54249632c8415327cf8130dbd1e45c81354fca583d978785ea95",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "generation_mode": "built-in image_gen"
+  },
+  {
+    "key": "thermal-joinery",
+    "path": "assets/img/plmr-thermal-joinery-v17.webp",
+    "size_bytes": 268552,
+    "source_sha256": "233f50c2fbf4d220faf90829501352f795df55084ed9a442dd0a1cf519df50c3",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "generation_mode": "built-in image_gen"
+  },
+  {
+    "key": "materials",
+    "path": "assets/img/plmr-materials-v17.webp",
+    "size_bytes": 216680,
+    "source_sha256": "5d5cdd288725af5d2657484320b3cca09d1935705d89deb0b711a6c9955a9e32",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "generation_mode": "built-in image_gen"
+  },
+  {
+    "key": "quality-control",
+    "path": "assets/img/plmr-quality-control-v17.webp",
+    "size_bytes": 168420,
+    "source_sha256": "283e46f89e3528a52246c95ed542d93536b869799f48b67257be84ab969ec0dc",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "generation_mode": "built-in image_gen"
+  },
+  {
+    "key": "rolling-roof-residential",
+    "path": "assets/img/plmr-rolling-roof-residential-v17.webp",
+    "size_bytes": 258990,
+    "source_sha256": "822c296cac579dfac9c716d605ea841e749d16d89914b509902474f84056c836",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "generation_mode": "built-in image_gen"
+  }
+]

@@ -74,7 +74,9 @@
     sourcing: 'Technical Sourcing',
     components: 'Outdoor System / Component',
     software: 'PLMR Software / Implementation',
-    collaboration: 'Technical Collaboration'
+    collaboration: 'Technical Collaboration',
+    materials: 'Aluminum / Building Materials',
+    quality: 'Supplier Quality Control / Visit'
   };
   const requestedSupport = new URLSearchParams(window.location.search).get('support');
   const helpSelect = form.querySelector('[name="helpType"]');

@@ -11,3 +11,8 @@
   X-Robots-Tag: noindex
   Content-Type: text/plain; charset=utf-8
 
+/assets/video/plmr-demo-90s-v10-1.mp4
+  Content-Type: video/mp4
+
+/assets/video/plmr-demo-90s-v10-1.webm
+  Content-Type: video/webm

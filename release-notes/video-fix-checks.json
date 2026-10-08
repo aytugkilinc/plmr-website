@@ -1,5 +1,20 @@
 {
   "status": "PASS",
+  "baseline": "PLMR_Website_v10",
+  "live_original_asset": {
+    "download": "SUCCESS",
+    "bytes": 2333636,
+    "sha256": "c5f61af593096cd45bdee19c5a496f9ce4995bd35e01c66f9734fa6fc092d1cb",
+    "matches_v10": true,
+    "full_decode": "PASS"
+  },
+  "live_original_page_player": "ERROR: Unable to play media",
+  "exact_failure_cause": "NOT_ESTABLISHED",
+  "browser_limits": [
+    "Direct live MP4 navigation returned ERR_BLOCKED_BY_CLIENT.",
+    "Cloud browser policy prohibits local file:// playback preview."
+  ],
+  "new_source_count": 2,
   "media": [
     {
       "path": "/assets/video/plmr-demo-90s-v10-1.mp4",
@@ -38,6 +53,11 @@
       "fast_start": "NOT_APPLICABLE"
     }
   ],
-  "browser_playback": "NOT_VERIFIED",
-  "source": "Original uploaded demonstration; no audio or new scenes added."
+  "changed_public_baseline_files": [
+    "_headers",
+    "software.html"
+  ],
+  "worker_configuration_and_shared_frontend": "BYTE_IDENTICAL_TO_V10",
+  "new_production_deployment": "NOT_PERFORMED",
+  "new_browser_playback": "NOT_VERIFIED"
 }

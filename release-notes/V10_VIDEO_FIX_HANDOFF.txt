@@ -1,0 +1,24 @@
+PLMR v10 VIDEO UPDATE — 8 OCTOBER 2026
+
+This package is the complete v10 site plus a playback compatibility update.
+Unzip and upload its files and folders to the existing repository root.
+Commit to the connected production branch and wait for deployment success.
+
+Existing public files changed:
+  software.html
+  _headers
+New public assets:
+  assets/video/plmr-demo-90s-v10-1.mp4
+  assets/video/plmr-demo-90s-v10-1.webm
+
+The old live MP4 exists, matches v10 and fully decodes. Missing/corrupt upload
+was not found. Exact cause of the user's playback issue remains unconfirmed.
+The new formats and explicit MIME/codec declarations improve the available
+playback choices; they are not claimed as a live-verified repair.
+
+Primary documentation consulted:
+https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Audio_and_video_delivery
+https://developers.cloudflare.com/workers/static-assets/headers/
+
+No account access, deployment or contact email was performed.
+Previous PLMR_Website_v10.zip is unchanged and can be used for rollback.

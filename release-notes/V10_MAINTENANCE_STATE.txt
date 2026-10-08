@@ -1,3 +1,43 @@
+PLMR v10 — CURRENT VIDEO UPDATE STATE
+8 October 2026
+
+IMPLEMENTED IN THIS UPDATE
+- Two new video assets encoded from the original recording: 1280x720 at 24 fps.
+- MP4: H.264 Constrained Baseline level 3.1, yuv420p, moov before mdat.
+- WebM: VP9 Profile 0, yuv420p. Both recordings remain silent.
+- The player declares both codecs with proper void source elements.
+- New filenames avoid reuse of the previous video's cached URL.
+- Direct MP4, alternative WebM and MP4 download links are visible below it.
+- Per-file Content-Type declarations added in _headers.
+
+LOCALLY VERIFIED
+- Both complete recordings decode without errors.
+- Both source paths exist; codecs match the source type declarations.
+- 26 HTML pages, 24 indexable pages and 1233 local references pass checks.
+- Worker, deployment configuration, shared JS and CSS are identical to v10.
+- Only software.html and _headers changed among existing public files.
+- Previous v10 assets, including the old video, are retained.
+- Existing Worker tests and simulated HTTP checks are inherited from v10;
+  those unchanged components were not rerun in this update.
+
+LIVE OBSERVED BEFORE THIS UPDATE
+- The live Software page displayed the v10 content.
+- The player reported "Unable to play media".
+- The live MP4 downloaded successfully and matched the previous ZIP exactly.
+- The complete downloaded MP4 decoded successfully offline.
+
+LIMITS / REQUIRED AFTER PUBLICATION
+- Root cause of the reported playback failure is not established.
+- Direct live media navigation was blocked by this browser client.
+- Local file playback preview was blocked by cloud-browser URL policy.
+- No authenticated service was connected and no live deployment was made.
+- The new MP4/WebM player has not been verified in a production browser.
+- After upload/deployment, press Play, confirm that time advances, seek,
+  and test the direct links on the user's desktop and phone.
+
+The following is the historical v10 handoff retained for context.
+Its live/browser limitations describe the earlier packaging run.
+
 PLMR WEBSITE v10 — MAINTENANCE / HANDOFF STATE
 8 October 2026
 

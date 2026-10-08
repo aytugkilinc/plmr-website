@@ -16,3 +16,7 @@ node_modules/**
 release-notes/**
 package*.json
 README.md
+.assetsignore
+build_v10.py
+validation/**
+*.md

@@ -1,36 +1,38 @@
-PLMR WEBSITE v10 — YÜKLEME NOTU
+PLMR WEBSITE v10 — VİDEO UYUMLULUK GÜNCELLEMESİ
 8 Ekim 2026
 
-Bu ZIP, mevcut Cloudflare Workers projesinin tam kaynak paketidir.
-Dosyaları açın; index.html, worker.js ve wrangler.jsonc aynı ana dizinde olsun.
-assets, downloads ve technical-insights klasörlerini alt klasörleriyle aktarın.
+Bu paket sitenin bütün kaynak dosyalarını içerir. ZIP'i açıp içindeki dosya
+ve klasörleri mevcut GitHub deponuzun ana dizinine yükleyin ve mevcut
+dosyaların üzerine yazın. ZIP dosyasının kendisini yüklemek yeterli değildir.
+index.html, worker.js ve wrangler.jsonc depo kökünde kalmalıdır.
 
-Mevcut Worker projenizde tüm dosyaları birlikte güncelleyin. Bu sürümde formun
-iki yeni başvuru seçeneği worker.js içinde de tanımlandı; HTML ve Worker kodunu
-birlikte yüklemek gerekir. Mevcut EMAIL ve ASSETS ayarları korunmuştur.
+Video için gereken değişiklikler:
+- software.html: MP4 ve WebM kaynakları ve doğrudan açma/indirme bağlantıları.
+- _headers: yeni video dosyaları için açık içerik türleri.
+- assets/video/plmr-demo-90s-v10-1.mp4
+- assets/video/plmr-demo-90s-v10-1.webm
 
-Komutla yayınlıyorsanız bu dizinde, size ait terminalden:
+Yeni video dosyalarını klasör yapısıyla birlikte yükleyin. Eski video
+eski bağlantıların çalışması için pakette tutulmuştur.
 
-Windows:
-  npx.cmd wrangler deploy --config wrangler.jsonc
+GitHub bağlı production dalına commit yapılması, otomatik deployment açıksa
+Cloudflare yayınını başlatır. Deployment başarılı olduktan sonra sitenin
+Software sayfasını yenileyin, Play'e basın ve videonun ilerlediğini kontrol
+edin. Gerekirse "Open alternative video" bağlantısını deneyin.
 
-macOS / Linux:
-  npx wrangler deploy --config wrangler.jsonc
+Canlı incelemede v10 Software sayfası görüntülendi ve eski video dosyası
+indirildi. Dosya önceki ZIP'teki video ile byte düzeyinde aynıydı; tam video
+çözümleme kontrolü başarılıydı. Sayfada "Unable to play media" görüldü.
+Bu inceleme ortamındaki doğrudan medya açma isteği ERR_BLOCKED_BY_CLIENT
+ile engellendi; bu nedenle hatanın kesin sebebi doğrulanamadı.
 
-Bu komut kullanıcı tarafından çalıştırıldığında yayın yapar. Gerekli hesap
-oturumu kendi terminalinizde açılır. Bu çalışmada hesap bağlantısı veya yayın
- yapılmamıştır. Paket, Workers kodu içerdiği için Pages dosya sürükle-bırak
-paketi olarak kullanılmamalıdır.
+Yeni dosyalar özgün kayıttan 1280×720 olarak üretildi: H.264 Constrained
+Baseline MP4 (fast-start) ve VP9 WebM. Dosya adları yeni olduğu için
+eski video adresinin önbelleği kullanılmaz. Yeni paketin sunucuda yayını
+ve gerçek tarayıcıda başarılı oynatma bu çalışmada doğrulanmamıştır.
 
-Yalnızca ZIP dosyasının kendisini bir kaynak deposuna koymak içeriğini açmaz.
-Varsa mevcut kaynak/deploy bağlantınızı kullanırken açılmış dosyaları aktarın.
-
-Yapılan değişiklikler ve doğrulama sınırları release-notes klasöründedir.
-Bu notlar ve çalışma belgeleri public statik dosyalardan dışlanmıştır.
-Önceki paket geri dönüş kaynağı olarak ayrıca korunmuştur.
-
-Kontrol özeti: 24 indekslenebilir sayfa; 1230 yerel referans kontrolü;
-20 yerel Worker/form sınaması; 31 yerel HTTP önizleme kontrolü.
-Video H.264, 960×540, 88,75 saniye; tamamı yerel olarak çözümlendi.
-Tarayıcıda görsel/mobil kontrol, gerçek e-posta ve canlı yayın kontrolü
-bu ortamda doğrulanmamıştır.
+Yayın hesabına bağlantı veya canlı site değişikliği yapılmadı.
+Worker, iletişim formu ve mevcut deployment yapılandırması v10 ile aynıdır.
+Önceki v10 ZIP geri dönüş için korunmuştur.
+Detaylı kontrol kayıtları release-notes klasöründedir ve public assets
+kapsamından dışlanmıştır.

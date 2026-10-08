@@ -63,3 +63,5 @@
 .about-brand-panel p{font-size:1rem}.about-brand-panel .eyebrow{font-size:.72rem}
 @media(min-width:1181px){.nav-link{padding-inline:8px}}
 @media(max-width:760px){.about-profile{grid-template-columns:1fr;gap:28px}.about-brand-panel{padding:24px}}
+
+.about-brand-panel .founder-portrait{width:160px;height:160px;object-fit:cover;border-radius:8px;padding:0;margin:0 auto 16px;display:block}

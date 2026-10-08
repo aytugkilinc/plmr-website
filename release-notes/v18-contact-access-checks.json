@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "html_pages": 30,
+  "whatsapp_links_checked": 62,
+  "recipient": "+905369982988",
+  "message": "Hello PLMR, I’d like to learn more about your services and discuss how we can work together.",
+  "homepage_audience_cards": 4,
+  "works_without_javascript": true,
+  "chat_message_sent": false,
+  "note": "HTML link targets, URL decoding, accessibility labels and external-link attributes checked locally; WhatsApp app handoff not exercised."
+}

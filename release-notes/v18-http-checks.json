@@ -1,0 +1,191 @@
+{
+  "status": "PASS",
+  "checks": 44,
+  "local_simulation": true,
+  "note": "Local preview applies release redirect and asset-ignore rules. It does not prove Cloudflare deployment, browser playback or remote email delivery.",
+  "results": [
+    {
+      "route": "/",
+      "status": 200
+    },
+    {
+      "route": "/about",
+      "status": 200
+    },
+    {
+      "route": "/bioclimatic-pergola-systems",
+      "status": 200
+    },
+    {
+      "route": "/contact",
+      "status": 200
+    },
+    {
+      "route": "/custom-components-solutions",
+      "status": 200
+    },
+    {
+      "route": "/engineering-services",
+      "status": 200
+    },
+    {
+      "route": "/example-deliverables",
+      "status": 200
+    },
+    {
+      "route": "/glass-roof-winter-garden-systems",
+      "status": 200
+    },
+    {
+      "route": "/guillotine-glass-systems",
+      "status": 200
+    },
+    {
+      "route": "/outdoor-systems",
+      "status": 200
+    },
+    {
+      "route": "/privacy",
+      "status": 200
+    },
+    {
+      "route": "/rolling-roof-systems",
+      "status": 200
+    },
+    {
+      "route": "/sliding-glass-systems",
+      "status": 200
+    },
+    {
+      "route": "/software",
+      "status": 200
+    },
+    {
+      "route": "/technical-insights",
+      "status": 200
+    },
+    {
+      "route": "/technical-insights/bioclimatic-pergola-drainage",
+      "status": 200
+    },
+    {
+      "route": "/technical-insights/bioclimatic-vs-retractable-pergola",
+      "status": 200
+    },
+    {
+      "route": "/technical-insights/comparing-outdoor-system-quotations",
+      "status": 200
+    },
+    {
+      "route": "/technical-insights/guillotine-vs-sliding-glass",
+      "status": 200
+    },
+    {
+      "route": "/technical-insights/pergola-project-quote-information",
+      "status": 200
+    },
+    {
+      "route": "/technical-insights/pergola-side-enclosures",
+      "status": 200
+    },
+    {
+      "route": "/technical-sourcing-turkey",
+      "status": 200
+    },
+    {
+      "route": "/zip-screen-systems",
+      "status": 200
+    },
+    {
+      "route": "/aluminum-building-materials",
+      "status": 200
+    },
+    {
+      "route": "/supplier-quality-control-turkey",
+      "status": 200
+    },
+    {
+      "route": "/lift-and-slide-systems",
+      "status": 200
+    },
+    {
+      "route": "/insulated-aluminum-windows-doors",
+      "status": 200
+    },
+    {
+      "route": "/automation-studio",
+      "status": 301,
+      "destination": "/software"
+    },
+    {
+      "route": "/retractable-pergola-roof-systems",
+      "status": 301,
+      "destination": "/rolling-roof-systems"
+    },
+    {
+      "route": "/retractable-pergola-roof-systems.html",
+      "status": 301,
+      "destination": "/rolling-roof-systems"
+    },
+    {
+      "route": "/pergola.html",
+      "status": 301,
+      "destination": "/rolling-roof-systems"
+    },
+    {
+      "route": "/hebeschiebe",
+      "status": 301,
+      "destination": "/lift-and-slide-systems"
+    },
+    {
+      "route": "/worker.js",
+      "status": 404
+    },
+    {
+      "route": "/wrangler.jsonc",
+      "status": 404
+    },
+    {
+      "route": "/.assetsignore",
+      "status": 404
+    },
+    {
+      "route": "/README.md",
+      "status": 404
+    },
+    {
+      "route": "/hizliyukle.bat",
+      "status": 404
+    },
+    {
+      "route": "/hizli-yukle.ps1",
+      "status": 404
+    },
+    {
+      "route": "/KURULUM_v18.txt",
+      "status": 404
+    },
+    {
+      "route": "/PLMR_SITE_MANIFEST_v18.json",
+      "status": 404
+    },
+    {
+      "route": "/release-notes/V17_IMAGE_PROMPTS.md",
+      "status": 404
+    },
+    {
+      "route": "/not-a-page",
+      "status": 404
+    },
+    {
+      "route": "/assets/video/plmr-demo-90s-v10-1.mp4",
+      "status": 206,
+      "mime": "video/mp4"
+    },
+    {
+      "route": "/assets/video/plmr-demo-90s-v10-1.webm",
+      "status": 206,
+      "mime": "video/webm"
+    }
+  ]
+}

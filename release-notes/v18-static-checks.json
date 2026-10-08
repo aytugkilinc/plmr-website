@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "html_files": 30,
+  "indexable_routes": 27,
+  "local_references_checked": 1491,
+  "selected_original_image_assets": 12,
+  "social_links": [
+    "https://www.linkedin.com/in/ayetullahkilinc/",
+    "https://www.instagram.com/ayetullahkilinc/"
+  ],
+  "video_sources_unchanged": true,
+  "uploader_static_checks": "PASS; Windows execution not performed",
+  "redirects_checked": 20
+}

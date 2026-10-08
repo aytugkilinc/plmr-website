@@ -53,3 +53,13 @@
 .section-light{background:var(--light)}
 .section-light .brief-card{background:#fff}
 @media(max-width:760px){.contact-starting-info{margin:26px 0}.form-fallback .btn{width:100%}}
+
+/* Supplied 2026 logos and founder introduction. */
+.brand{background:#fff;border-radius:5px;padding:5px 8px}.brand img{width:100%;height:auto}
+.footer-brand img{background:#fff;border-radius:6px;padding:10px}
+.about-profile{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:48px;align-items:start}
+.about-profile-copy{min-width:0}.about-brand-panel{background:var(--light);padding:32px;border:1px solid var(--line);border-radius:8px;text-align:center}
+.about-brand-panel img{width:100%;height:auto;background:white;padding:16px;margin-bottom:24px}
+.about-brand-panel p{font-size:1rem}.about-brand-panel .eyebrow{font-size:.72rem}
+@media(min-width:1181px){.nav-link{padding-inline:8px}}
+@media(max-width:760px){.about-profile{grid-template-columns:1fr;gap:28px}.about-brand-panel{padding:24px}}

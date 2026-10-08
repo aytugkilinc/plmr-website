@@ -8,6 +8,8 @@ const ALLOWED_HELP = new Set([
   'Drawing & Coordination',
   'Technical Sourcing',
   'Outdoor System / Component',
+  'PLMR Software / Implementation',
+  'Technical Collaboration',
   'Not sure yet'
 ]);
 
@@ -176,3 +178,4 @@ export default {
     return serveAsset(request, env);
   }
 };
+

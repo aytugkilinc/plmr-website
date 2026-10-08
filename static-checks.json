@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "html_pages": 26,
+  "indexable_pages": 24,
+  "local_references_checked": 1230,
+  "categories": [
+    "Engineering / Technical Review",
+    "Drawing & Coordination",
+    "Technical Sourcing",
+    "Outdoor System / Component",
+    "PLMR Software / Implementation",
+    "Technical Collaboration",
+    "Not sure yet"
+  ],
+  "errors": [],
+  "configuration_sha256": "8c13ee0c14f097e34856acfe16e135c1996887cadbb1c0786a53215d631de694"
+}

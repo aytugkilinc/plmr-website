@@ -1,0 +1,46 @@
+# PLMR
+
+> Technical project solutions, drawing support, Türkiye-based supplier coordination and company-specific software workflows for outdoor systems.
+
+PLMR is led by Aytuğ Kılınç, a civil engineer based in Türkiye.
+Project scope, deliverables, responsibilities, timing and fees are agreed per enquiry.
+System descriptions and illustrative deliverables are not evidence of completed client projects, manufacturing capacity or product certification.
+
+## Services and contact
+- [Engineering support](https://plmr.solutions/engineering-services): project-specific solutions, outsourced drawings, custom details and coordination.
+- [Technical sourcing](https://plmr.solutions/technical-sourcing-turkey): supplier search, existing-supplier coordination, agreed visits, order follow-up and documentation checks.
+- [Components](https://plmr.solutions/custom-components-solutions): project-specific aluminium and steel component requirements.
+- [Example deliverables](https://plmr.solutions/example-deliverables): explicitly illustrative review, drawing and sourcing outlines.
+- [Outdoor systems](https://plmr.solutions/outdoor-systems): system families and project considerations.
+- [Technical insights](https://plmr.solutions/technical-insights): project preparation and system selection articles.
+- [About PLMR](https://plmr.solutions/about): background and working approach.
+- [Contact](https://plmr.solutions/contact): project enquiry form with reference-image attachments and file-sharing links, plus direct email and a downloadable project brief.
+- [Privacy](https://plmr.solutions/privacy): project correspondence and technical data.
+
+Business email: aytugkilinc@plmrsolutions.com
+Pülümür Automation Studio is working, actively developed software. Product and output scope are agreed per company; implementation scope is defined per company.
+
+- [Automation Studio](https://plmr.solutions/software): company-specific configuration, drawings, quotations and agreed technical outputs.
+
+## Practical sourcing guide
+- [Comparing supplier quotations](https://plmr.solutions/technical-insights/comparing-outdoor-system-quotations): a method for recording scope, evidence, exclusions and unanswered questions.
+
+
+## Roof projects and concrete outputs
+- [Rolling roof systems](https://plmr.solutions/rolling-roof-systems): retractable panel movement, drainage and project interfaces.
+- [Custom-detail example](https://plmr.solutions/example-deliverables#custom-detail): explicitly illustrative connection-detail assignment.
+- [Order follow-up example](https://plmr.solutions/example-deliverables#order-follow-up): explicitly illustrative document and packing-information review.
+- [Software demonstration](https://plmr.solutions/software#demo): supplied recording from a demonstration build, not a current application source audit.
+
+Software customer commercial information is not used for PLMR's separate sourcing or supply activity.
+Module coverage, output formats, integration, licensing and support are scoped per implementation.
+Rolling-roof integration and wider manufacturing connections are continuing development directions.
+
+## Expanded architectural and material scope (v17)
+- [Aluminum and building materials](https://plmr.solutions/aluminum-building-materials): profiles, sheet and coil, architectural joinery, facade components, composite panels, sandwich panels and associated materials. Brand-specific sourcing enquiries can include ASAŞ, AKPA, ALUMIL and Çuhadaroğlu.
+- [Supplier quality control](https://plmr.solutions/supplier-quality-control-turkey): agreed visits, accessible sampled measurements, finish, accessories, quantities, packing and document follow-up with new or existing suppliers.
+- [Lift and slide](https://plmr.solutions/lift-and-slide-systems): Hebeschiebe doors, profiles, glazing, hardware and threshold coordination.
+- [Insulated windows and doors](https://plmr.solutions/insulated-aluminum-windows-doors): thermally broken aluminum joinery and supplier support.
+Rolling and retractable roof requests are grouped under /rolling-roof-systems; fabric and rigid-panel mechanisms remain explicit.
+New system and sourcing pages do not imply corresponding software module coverage.
+New product images are original AI-generated PLMR concept illustrations, not completed-project photographs or evidence of manufacturer affiliation.

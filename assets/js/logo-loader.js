@@ -1,4 +1,4 @@
-/* PLMR v19: original bitmap letters, traced M, no libraries, no navigation interception. */
+/* PLMR v22: original bitmap letters, traced M, no libraries, no navigation interception. */
 (() => {
   'use strict';
   if (window.PLMRLoading) return;

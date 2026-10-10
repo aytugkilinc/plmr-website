@@ -1,11 +1,11 @@
-# PLMR Website v18
+# PLMR Website v22
 
-Complete English PLMR website package for the existing Cloudflare Worker / GitHub workflow.
+Complete approved website delivery: full v18 site/media + corrected v19 logo-loading animation + latest v21 automatic uploader, with current release metadata updated to v22. This is a full package, not an updater-only archive.
 
-Extract WebSitesi into C:\Users\ayetu\Desktop\WebSitesi, merge its files into that folder, retain the existing GitHub subfolder and run hizliyukle.bat. See KURULUM_v18.txt for the practical steps.
+Extract the contents of `WebSitesi` into `C:\Users\ayetu\Desktop\WebSitesi`, retain the existing `GitHub` folder and run `hizliyukle.bat`. See `KURULUM_v22.txt`.
 
-The website root contains HTML pages, assets, downloads, worker.js, wrangler.jsonc, _headers and _redirects. The uploader and instructions are excluded from published assets. Do not place the source inside GitHub or an extra nested WebSitesi folder.
+The uploader commits pending local changes, synchronizes the configured repo, copies existing source files, commits them and pushes. Missing source images do not block it or delete existing repo images. Repo/account setup is saved locally when needed; credentials are handled by Git Credential Manager, not stored in the settings JSON.
 
-Local validation is documented in release-notes/V18_VALIDATION_REPORT.json; it does not establish the current live deployment. Release notes under release-notes include the current v18 change record, validation report. Image briefs and category references remain in the v17 notes. Earlier version notes are historical.
+Media is from the last complete saved package. Locally edited media from your Windows computer was not accessible to this build: preserve it when merging the ZIP. The eight previously optional legacy images are included unchanged in this complete media set; you may remove/replace them and still upload. No unapproved image revisions were inserted.
 
-V18 adds four client groups to the homepage and WhatsApp links throughout the site, using the same approved general introduction.
+See `release-notes/V22_VALIDATION_REPORT.json` and `V22_CHANGE_RECORD_TR.md`. Historical release reports retain their original version labels. No live GitHub/Cloudflare deployment was performed by this build.

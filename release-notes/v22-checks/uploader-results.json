@@ -1,0 +1,98 @@
+{
+  "version": "v22",
+  "baseline": "PLMR_Otomatik_Yukleyici_v21.zip, current labels updated to v22",
+  "method": "Actual local Git repositories: commit, fetch, fast-forward, merge, push, rejection/retry and conflict; Python overlay model; PowerShell flow inspection",
+  "windows_powershell_robocopy_executed": false,
+  "browser_github_auth_tested": false,
+  "real_github_push_performed": false,
+  "tests": [
+    {
+      "test": "Existing staged, unstaged, new and deleted repo files auto commit",
+      "result": "PASS"
+    },
+    {
+      "test": "Deletion in GitHub folder is included in the local checkpoint",
+      "result": "PASS"
+    },
+    {
+      "test": "Diverged branches merge automatically when edits do not conflict",
+      "result": "PASS"
+    },
+    {
+      "test": "Local checkpoint and remote-only edits are both preserved",
+      "result": "PASS"
+    },
+    {
+      "test": "Source updates produce another automatic commit",
+      "result": "PASS"
+    },
+    {
+      "test": "Preexisting repo edits remain recoverable from pre-copy commit",
+      "result": "PASS"
+    },
+    {
+      "test": "Missing source image stays in repo and settings are not uploaded",
+      "result": "PASS"
+    },
+    {
+      "test": "Actual local bare-remote push sends combined commits",
+      "result": "PASS"
+    },
+    {
+      "test": "Repeated click with no edits creates no empty commit",
+      "result": "PASS"
+    },
+    {
+      "test": "Failed push preserves local commit and source files",
+      "result": "PASS"
+    },
+    {
+      "test": "Retry with existing pending commit succeeds without manual commit",
+      "result": "PASS"
+    },
+    {
+      "test": "Retry publishes saved commit",
+      "result": "PASS"
+    },
+    {
+      "test": "Remote-only commit fast-forwards automatically",
+      "result": "PASS"
+    },
+    {
+      "test": "Real conflict aborts owned merge and keeps committed local changes",
+      "result": "PASS"
+    },
+    {
+      "test": "Production ordering is local checkpoint, fetch/merge, copy, source commit, push",
+      "result": "PASS"
+    },
+    {
+      "test": "Missing-file lists removed and same-name replacement options retained",
+      "result": "PASS"
+    },
+    {
+      "test": "No forced push, hard reset or filesystem removal",
+      "result": "PASS"
+    },
+    {
+      "test": "Incomplete merge/rebase is checked before automatic stage/commit",
+      "result": "PASS"
+    },
+    {
+      "test": "First setup requests repo/account only when no existing clone/settings",
+      "result": "PASS"
+    },
+    {
+      "test": "Account guidance and one auth retry are present",
+      "result": "PASS"
+    },
+    {
+      "test": "Settings contain no password/token fields and are excluded from upload",
+      "result": "PASS"
+    },
+    {
+      "test": "Production Windows script labels and BOM are v22 only",
+      "result": "PASS"
+    }
+  ]
+}

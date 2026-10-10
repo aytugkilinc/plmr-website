@@ -1,4 +1,10 @@
 (() => {
+  // The decorative component is optional: its failure never blocks site features.
+  const startLoading = options => {
+    try { return window.PLMRLoading?.begin(options) || { end() {} }; }
+    catch { return { end() {} }; }
+  };
+  const words = window.PLMRLoading?.words || { loading: 'Loading…', sending: 'Sending…', copying: 'Copying…' };
   const body = document.body;
   const header = document.querySelector('.site-header');
   const toggle = document.querySelector('.menu-toggle');
@@ -51,18 +57,51 @@
     copyButton.addEventListener('click', async () => {
       if (copyButton.disabled) return;
       copyButton.disabled = true;
+      const indicator = startLoading({ target: copyButton.parentElement, label: words.copying });
+      let copyTimer;
       try {
-        await navigator.clipboard.writeText(brief.value);
+        await Promise.race([
+          navigator.clipboard.writeText(brief.value),
+          new Promise((_, reject) => { copyTimer = window.setTimeout(() => reject(new Error('Clipboard timeout')), 8000); })
+        ]);
         if (copyStatus) copyStatus.textContent = 'Brief copied. Paste it into your email and add your details. Send it from your email service.';
       } catch {
         brief.focus();
         brief.select();
         if (copyStatus) copyStatus.textContent = 'Automatic copying is unavailable. The brief is selected; copy it manually or use Download Brief.';
       } finally {
+        window.clearTimeout(copyTimer);
+        indicator.end();
         copyButton.disabled = false;
       }
     });
   }
+
+  // Buffering belongs to the playing media, not to the whole page or metadata download.
+  document.querySelectorAll('.software-video').forEach(video => {
+    const target = video.closest('.software-demo');
+    if (!target) return;
+    let indicator = null, stallTimer = null, stallExpired = false;
+    const stop = () => {
+      window.clearTimeout(stallTimer);
+      stallTimer = null;
+      indicator?.end();
+      indicator = null;
+    };
+    const wait = () => {
+      if (video.paused || video.ended || video.error || video.readyState >= 3 || indicator || stallExpired) return;
+      indicator = startLoading({ target, mode: 'media', label: words.loading });
+      stallTimer = window.setTimeout(() => { stallExpired = true; stop(); }, 30000);
+    };
+    ['play', 'waiting', 'stalled', 'seeking'].forEach(type => video.addEventListener(type, wait));
+    ['playing', 'canplay', 'pause', 'ended', 'error', 'emptied'].forEach(type => video.addEventListener(type, () => {
+      stallExpired = false;
+      stop();
+    }));
+    video.addEventListener('seeked', () => { if (video.readyState >= 3 || video.paused) stop(); else wait(); });
+    window.addEventListener('pagehide', stop);
+    window.addEventListener('pageshow', () => { stallExpired = false; wait(); });
+  });
 
   const form = document.querySelector('[data-contact-form]');
   if (!form) return;
@@ -185,12 +224,18 @@
     submitButton.disabled = true;
     const originalLabel = submitButton.textContent;
     submitButton.textContent = 'Sending…';
+    const indicator = startLoading({ target: form, label: words.sending });
+    const controller = new AbortController();
+    const requestTimeout = window.setTimeout(() => controller.abort(), 45000);
+    const cancelRequest = () => controller.abort();
+    window.addEventListener('pagehide', cancelRequest, { once: true });
 
     try {
       const response = await fetch(form.action, {
         method: 'POST',
         body: new FormData(form),
-        headers: { Accept: 'application/json' }
+        headers: { Accept: 'application/json' },
+        signal: controller.signal
       });
       const contentType = response.headers.get('content-type') || '';
       const result = contentType.includes('application/json') ? await response.json() : null;
@@ -214,8 +259,15 @@
 
       showFallback('Direct form delivery is not available right now. Nothing was sent. Your details are still here; you can continue with the prepared email draft.');
     } catch {
-      showFallback('The connection to the form service failed. Nothing was sent. Your details are still here; you can continue with the prepared email draft.');
+      if (controller.signal.aborted) {
+        showFallback('The request was interrupted or timed out. Delivery could not be confirmed. Your details are still here; check for confirmation before sending again, or use the prepared email draft.');
+      } else {
+        showFallback('The connection to the form service failed. Nothing was sent. Your details are still here; you can continue with the prepared email draft.');
+      }
     } finally {
+      window.clearTimeout(requestTimeout);
+      window.removeEventListener('pagehide', cancelRequest);
+      indicator.end();
       submitButton.disabled = false;
       submitButton.textContent = originalLabel;
     }

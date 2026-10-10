@@ -1,0 +1,52 @@
+{
+  "version": "v19",
+  "package_revision": "upload-fix-1",
+  "method": "Python filesystem scenarios modeling source/package validation and Robocopy /E overlay; static PowerShell flow inspection",
+  "windows_execution": false,
+  "checks": [
+    {
+      "name": "Update-only source + existing GitHub baseline without all eight retired images passes",
+      "status": "PASS"
+    },
+    {
+      "name": "Previous installation notes and historical reports are not prerequisites",
+      "status": "PASS"
+    },
+    {
+      "name": "Missing new loader in source fails even if a copy exists in GitHub",
+      "status": "PASS"
+    },
+    {
+      "name": "Missing required site.css in both folders fails before deployment",
+      "status": "PASS"
+    },
+    {
+      "name": "Overlay removes no existing files",
+      "status": "PASS"
+    },
+    {
+      "name": "Unchanged media and newer repo-only files keep exact bytes",
+      "status": "PASS"
+    },
+    {
+      "name": "No retired images are reintroduced",
+      "status": "PASS"
+    },
+    {
+      "name": "All required deployed files exist after overlay",
+      "status": "PASS"
+    },
+    {
+      "name": "Full-source installation also passes",
+      "status": "PASS"
+    },
+    {
+      "name": "Package check then clean repo/pull then baseline check then nondeleting copy",
+      "status": "PASS"
+    },
+    {
+      "name": "No mirror, purge, hard reset, force push or source deletion",
+      "status": "PASS"
+    }
+  ]
+}

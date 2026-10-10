@@ -1,0 +1,69 @@
+{
+  "method": "Node VM, deterministic time and DOM/event fixtures; no live email or browser navigation",
+  "results": [
+    {
+      "name": "Short load never becomes visible; end clears all decorative work",
+      "status": "PASS"
+    },
+    {
+      "name": "Original bitmap first, continuous morph after 1 second, rider after morph",
+      "status": "PASS"
+    },
+    {
+      "name": "Measured 0-100 route; stalled progress freezes wheels and pedals without RAF",
+      "status": "PASS"
+    },
+    {
+      "name": "Measured movement also moves pedals; invalid totals do not create false percentages",
+      "status": "PASS"
+    },
+    {
+      "name": "Completion is immediate and does not impose a minimum display duration",
+      "status": "PASS"
+    },
+    {
+      "name": "Background tab stops all decorative timers and frames; resume and reset are safe",
+      "status": "PASS"
+    },
+    {
+      "name": "Reduced motion leaves original logo and text with no bicycle or animation work",
+      "status": "PASS"
+    },
+    {
+      "name": "Rapid navigations/back-forward lifecycle and concurrent tasks never leave stale indicators",
+      "status": "PASS"
+    },
+    {
+      "name": "Visible critical startup image resolves or fails without waiting for background media",
+      "status": "PASS"
+    },
+    {
+      "name": "Stuck startup image has a 15-second nonblocking fail-safe and removes image listeners",
+      "status": "PASS"
+    },
+    {
+      "name": "Form success/error preserve existing feedback and re-enable retry; no real message is sent",
+      "status": "PASS"
+    },
+    {
+      "name": "Form connection failure and 45-second abort remove loader and keep fallback/retry",
+      "status": "PASS"
+    },
+    {
+      "name": "Clipboard success and timeout cleanup, including selected-text fallback",
+      "status": "PASS"
+    },
+    {
+      "name": "Video metadata and pause stay quiet; real playback waits locally, ends on playing/error",
+      "status": "PASS"
+    },
+    {
+      "name": "Failed video buffering stops decorative animation after 30 seconds; native player stays intact",
+      "status": "PASS"
+    },
+    {
+      "name": "Loading component failure is isolated from contact delivery and site initialization",
+      "status": "PASS"
+    }
+  ]
+}

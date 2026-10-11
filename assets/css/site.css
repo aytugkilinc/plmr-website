@@ -171,3 +171,57 @@ body.menu-open .whatsapp-float{visibility:hidden;pointer-events:none}
 .hero-home{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:42px;align-items:center;min-height:0;background:var(--black);padding:64px max(24px,calc((100vw - var(--max))/2));overflow:visible}.hero-home .hero-media{position:static;inset:auto;order:2;width:100%;height:auto;object-fit:contain;border-radius:var(--radius)}.hero-home .hero-overlay{display:none}.hero-home .hero-content-left{order:1;min-width:0;width:auto;margin:0;padding:0}.hero-home .hero-offer{font-size:1.75rem;line-height:1.2}.hero-home .hero-lead{font-size:1.05rem}.hero-home .hero-content h1{font-size:clamp(3.4rem,5vw,5.4rem)}.roof-card:hover .card-image img{transform:none}.roof-card .card-image img{transition:none}
 @media(max-width:950px){.hero-home{grid-template-columns:1fr;gap:30px;padding:42px 24px}.hero-home .hero-content-left{width:100%;max-width:760px}.hero-home .hero-media{max-height:580px}}
 @media(max-width:700px){.hero-home{padding:34px 14px;gap:24px}.hero-home .hero-media{max-height:none}.hero-home .hero-content h1{font-size:3.5rem}.hero-home .hero-offer{font-size:1.4rem}.roof-grid{grid-template-columns:1fr}.roof-grid .card-body{padding:22px}}
+
+/* v26: longer editorial headlines and focused B2B enquiry fields. */
+[hidden]{display:none!important}
+.hero-home{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.hero-home .hero-content h1{font-size:clamp(2.35rem,3.45vw,3.55rem);line-height:1.12;letter-spacing:-.03em}
+.hero-home .hero-lead{line-height:1.65}
+.page-hero h1,.article-header h1{font-size:clamp(2.3rem,4.6vw,4.45rem);line-height:1.12}
+.insight-card h2{font-size:1.45rem;line-height:1.25}
+.section-intro h2,.narrow-wide>h2{max-width:26ch}
+.decision-grid>*{min-width:0}
+.enquiry-context{min-width:0;margin:0;padding:20px;border:1px solid var(--line);border-radius:var(--radius);background:var(--light)}
+.enquiry-context legend{padding:0 6px;font-size:.88rem;font-weight:700}
+.enquiry-context>label,.enquiry-context>.field-grid{margin-bottom:16px}
+.enquiry-context .form-help{margin:0}
+.roof-preferences-toggle{min-width:0;border:1px solid var(--line);border-radius:var(--radius);padding:16px}
+.roof-preferences-toggle>summary{cursor:pointer;font-weight:700;line-height:1.45}
+.roof-preferences-toggle .roof-brief{margin:20px 0 0}
+.project-form a,.contact-direct a,.article-body a{overflow-wrap:anywhere}
+.project-form .btn{white-space:normal;text-align:center;line-height:1.35;padding-block:12px}
+#project-enquiry{scroll-margin-top:100px}
+@media(max-width:950px){.hero-home{grid-template-columns:1fr}.hero-home .hero-content-left{max-width:760px}}
+@media(max-width:700px){.hero-home .hero-content h1{font-size:clamp(2.15rem,6.8vw,3rem)}.enquiry-context{padding:16px}.page-hero h1,.article-header h1{font-size:clamp(2.05rem,6.8vw,3.2rem)}.cta-panel .btn{width:100%;text-align:center}.insight-card{padding:24px}}
+
+/* v27: complete installation choices and readable technical preparation. */
+.anchor-alias{display:block;scroll-margin-top:100px}
+.roof-page-nav{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:34px;padding-top:22px;border-top:1px solid var(--line)}
+.roof-page-nav a{font-size:.9rem;text-decoration:underline;text-underline-offset:4px}
+.roof-page-nav a:focus-visible{outline:2px solid var(--anth);outline-offset:5px}
+.roof-dimension-summary{display:grid;grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr);gap:40px;align-items:start;margin-bottom:38px}
+.roof-dimension-summary .roof-dimensions{margin:0}
+.installation-group{margin-top:38px}
+.installation-group-title{font-size:1.35rem;margin-bottom:20px}
+.installation-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.joint-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.installation-card{min-width:0;margin:0;background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.installation-card>a{display:flex;align-items:center;justify-content:center;padding:18px;height:240px}
+.installation-card img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain}
+.installation-card figcaption{padding:0 20px 22px}
+.installation-card h3{font-size:1rem;line-height:1.4;margin:0}
+.installation-card a:focus-visible{outline:3px solid var(--anth);outline-offset:-4px}
+.joint-card>a{height:220px}
+.joint-grid+p{margin-top:22px;max-width:80ch}
+.technical-feature-grid,.preparation-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px}
+.technical-feature{min-width:0;padding:28px;background:#fff;border:1px solid var(--line);border-radius:var(--radius)}
+.technical-feature h3{font-size:1.3rem;line-height:1.35;margin-bottom:16px}
+.technical-feature p:last-child{margin-bottom:0}
+.enclosure-options{margin-top:38px}.enclosure-options .roof-category-nav{margin-top:22px}
+.enclosure-options h3{font-size:1.4rem;line-height:1.35}
+.preparation-handover{margin-top:28px;max-width:85ch}
+#roof-movement,#installation-options,#technical-details,#connection-details,#project-integration,#finish-options,#installation-preparation,#installation-handover,#roof-dispatch-checks{scroll-margin-top:100px}
+@media(max-width:950px){.installation-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.technical-feature-grid,.preparation-grid{gap:22px}}
+@media(max-width:700px){.roof-dimension-summary,.technical-feature-grid,.preparation-grid,.joint-grid{grid-template-columns:1fr;gap:22px}.installation-grid{grid-template-columns:1fr;gap:18px}.installation-card>a{height:auto;min-height:210px}.installation-card img{max-height:300px}.joint-card>a{min-height:0}.joint-card img{max-height:none}.technical-feature{padding:22px}.roof-page-nav{gap:12px 20px}.installation-group-title{font-size:1.2rem}.roof-dimension-summary{margin-bottom:24px}}
+
+.installation-enquiry{display:inline-block;margin-top:12px;font-size:.85rem;line-height:1.4}

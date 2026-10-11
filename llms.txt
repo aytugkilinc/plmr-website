@@ -1,8 +1,8 @@
 # PLMR
 
-> Technical project solutions, drawing support, Türkiye-based supplier coordination and company-specific software workflows for outdoor systems.
+> PLMR is an engineering-led outdoor systems consultancy and Türkiye-based technical sourcing partner for architects, contractors, facade specialists, outdoor living companies, importers and international project teams.
 
-PLMR is led by Aytuğ Kılınç, a civil engineer based in Türkiye.
+PLMR is led by Aytuğ Kılınç, a civil engineer based in Istanbul, Türkiye. PLMR provides consultancy, drawings and sourcing coordination. Manufacturing is performed by the supplier identified for the proposed order.
 Project scope, deliverables, responsibilities, timing and fees are agreed per enquiry.
 System descriptions and illustrative deliverables are not evidence of completed client projects, manufacturing capacity or product certification.
 
@@ -43,9 +43,9 @@ Rolling-roof integration and wider manufacturing connections are continuing deve
 - [Insulated windows and doors](https://plmr.solutions/insulated-aluminum-windows-doors): thermally broken aluminum joinery and supplier support.
 Rolling / Retractable Roof remains at /rolling-roof-systems, with Suphan Glide (retract only) and Zagro Motion (tilt and retract). Fabric Pergola has its own category at /fabric-pergola-systems; the historical /rolling-roof-systems#fabric-pergolas section still provides access.
 New system and sourcing pages do not imply corresponding software module coverage.
-Roof product images, sections and movement drawings are extracted from the PLMR catalog. Other retained imagery is illustrative rather than evidence of completed projects.
+Roof pages explain system movements, profile sections, mounting layouts and project preparation. Retained concept imagery is not evidence of completed client projects.
 
-## PLMR catalog roof collection
+## PLMR roof collection
 
 - [Zagro Motion](https://plmr.solutions/zagro-motion): Tilt & Retract Aluminum Roof; movement Tilt & Retract; roof material Aluminum.
 - [Artos Tilt](https://plmr.solutions/artos-tilt): Tilting Aluminum Louvered Roof; movement Tilt; roof material Aluminum.
@@ -58,3 +58,17 @@ Roof product images, sections and movement drawings are extracted from the PLMR 
 - [Meru Flex](https://plmr.solutions/outdoor-systems#meru-flex): project-defined roof configuration approach for moving and fixed sections; not a separate standard product or product page.
 
 Catalog roof artwork and dimensions come from PLMR_Bioclimatic_Catalog_EN_v5.pdf. Cervin Fix and Jura Fix sections are representative only. Project combinations, specifications and mounting details require project review; no comparative or certified performance values are inferred.
+
+## Support for U.S. buyers
+- [U.S. project and sourcing support](https://plmr.solutions/us-outdoor-system-sourcing): technical enquiry preparation, supplier comparison, drawing units and agreed order follow-up for U.S. importers, dealers and project teams.
+- [Sourcing louvered pergolas](https://plmr.solutions/technical-insights/sourcing-louvered-pergolas-turkey): movement, configuration, supplier documentation and order review.
+- [Supplier evaluation](https://plmr.solutions/technical-insights/supplier-evaluation-for-us-pergola-buyers): compare supplier information against a defined requirement.
+- [Commercial patio enclosure brief](https://plmr.solutions/technical-insights/commercial-patio-enclosure-supplier-brief): coordinate roof, vertical or sliding glass, and screen requirements.
+- [Lift-and-slide patio door sourcing](https://plmr.solutions/technical-insights/lift-and-slide-patio-door-sourcing): frame, glazing, hardware and threshold enquiries.
+- [Pre-dispatch checks](https://plmr.solutions/technical-insights/pre-dispatch-outdoor-system-checks-turkey): define accessible checks and the reporting brief.
+- [U.S. drawing handover](https://plmr.solutions/technical-insights/outdoor-system-drawing-handover-us-projects): units, dimensions, supplier revisions and review responsibilities.
+
+U.S. terminology includes motorized louvered pergolas, retractable patio roofs, vertical retractable glass walls, sliding glass walls, lift-and-slide patio doors and motorized exterior screens. Panoramic glazing describes visual intent rather than a verified operating or performance specification. Local project professionals define required approvals and evidence. PLMR does not claim U.S. manufacturing, a U.S. office or unverified product certification.
+
+## Roof project preparation
+PLMR coordinates supplier requirements for drainage outlets, connection details and electrical preparation. Roof projects include installation drawings and coded profile packages. Critical assemblies are trial fitted and checked by the manufacturing partner before dispatch. Coating options include Class 1, Class 2 and wood-effect finishes, specified for the project.

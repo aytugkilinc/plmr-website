@@ -1,15 +1,21 @@
 PLMR PROJECT / MATERIAL / SUPPLIER BRIEF
 
 Company and contact:
+Your role:
+Project or order stage:
 Project country and location:
 Requested support (drawings / sourcing / materials / supplier quality check / software):
 System or material:
 Roof option / named product:
 Moving and fixed roof sections:
+Roof layout and module count:
 Side enclosure requirements:
 Preferred brand, series and profile codes:
 Dimensions and units:
 Quantity, material grade and finish:
+Coating class, color or wood-effect requirement:
+Drainage outlet locations and directions:
+Motor, controls, LED and electrical requirements:
 Existing supplier and factory location, if applicable:
 Available drawings, order and revisions:
 Performance documents or acceptance criteria needed:
@@ -18,3 +24,4 @@ Target date:
 Links to project files:
 
 Email: aytugkilinc@plmrsolutions.com
+Phone / WhatsApp: +90 536 998 29 88

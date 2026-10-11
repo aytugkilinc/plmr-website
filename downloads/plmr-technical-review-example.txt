@@ -1,0 +1,39 @@
+PLMR - ILLUSTRATIVE TECHNICAL REVIEW OUTLINE
+Template version: 1.0 | Updated: 14 September 2026
+Illustrative example, not a completed client project.
+Not for fabrication or construction. No site or supplier has been verified.
+
+Example question: What must be clarified before selecting a terrace roof
+with side screens?
+
+1. INPUT REGISTER
+Record each sketch, photo, supplier sheet and measurement with its date and
+revision. Label dimensions as site-verified, supplied but unverified, or missing.
+
+2. DECISION TO MAKE
+State the intended use, desired roof opening behaviour and side protection.
+Separate client preferences from constraints that need technical verification.
+
+3. OPEN QUESTIONS
+- Support: identify the existing substrate; seek confirmation of fixing
+  capacity from the responsible project professional.
+- Drainage: show the proposed outlet and downstream route; request the
+  system's drainage details and relevant performance information.
+- Movement: check roof and screen travel against the proposed openings.
+- Controls: identify motor/control requirements and who confirms compatibility.
+- Performance: obtain project requirements and the supplier's applicable
+  evidence; do not infer a rating from appearance or a generic brochure.
+
+4. ISSUE REGISTER FORMAT
+Issue / available evidence / missing input / person to confirm /
+effect on decision / status / date or revision.
+
+5. REVIEW OUTPUT
+A written findings note, marked-up supplied material where included in scope,
+an open-issues list and a next-action list. Record limitations explicitly.
+
+6. RELEASE BOUNDARY
+A preliminary review does not constitute a structural design, local approval,
+supplier certification or permission to manufacture. Those responsibilities
+and any further calculations must be agreed separately.
+
